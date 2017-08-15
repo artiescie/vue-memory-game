@@ -11,6 +11,8 @@ The online demo is implemented with extra rank system involved, you can check th
 
 We choose `single-file-component` pattern as the fundamental of this game. In order to use this pattern, we involved [webpack](https://webpack.js.org/) with [vue-loader](https://github.com/vuejs/vue-loader) to make it possible.
 
+### AlphaFlip fork ###
+
 Some mods made by Artie Scie for this fork:
 - conv to an English alphabet pre-schooler game
 - game logo field changed to "AlphaFlip"
@@ -20,6 +22,9 @@ Some mods made by Artie Scie for this fork:
 - image magick used to resize images, etc, using scripts by [Fred](http://www.fmwconcepts.com/imagemagick/)
 - package.json script "npm start" now opens the browser (remove "--open" if you don't like it)
 - temporary [web demo here](http://come2think.com/vue-memory-game) - may disappear without notice ;-)
+#### Browser Note: ####
+- Small testing effort on the fork: works on various browsers, on Linux, Windows, Android, Mac browsers tested 
+EXCEPT: Windows IE 11 and earlier, Mac OS-X Safari, Apple iOS Safari, Apple iOS Chrome.  Probably it's the HTML5 Animation features not being supported in those browsers.
 
 ## Components Tree ##
 
