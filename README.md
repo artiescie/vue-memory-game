@@ -19,6 +19,7 @@ Some mods made by Artie Scie for this fork:
 - images from [Classroom Clipart](classroomclipart.com/)
 - image magick used to resize images, etc, using scripts by [Fred](http://www.fmwconcepts.com/imagemagick/)
 - package.json script "npm start" now opens the browser (remove "--open" if you don't like it)
+- temporary [web demo here](http://come2think.com/vue-memory-game) - may disappear without notice ;-)
 
 ## Components Tree ##
 
