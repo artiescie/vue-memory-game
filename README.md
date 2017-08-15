@@ -3,6 +3,8 @@ vue-memory-game
 ![][david-url]
 ![][license-url]
 
+Alphabet learning game for preschoolers.  Common objects with letters, pronounce them on match!
+
 A tiny game written in `vue2`. It's inspired by IgorMinar's [Memory-Game](https://github.com/IgorMinar/Memory-Game). You can view the online demo [here](http://leftstick.github.io/vue-memory-game).
 
 >If you are looking for `angular2` version, check it [here](https://github.com/leftstick/angular2-memory-game)
