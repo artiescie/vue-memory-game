@@ -11,6 +11,15 @@ The online demo is implemented with extra rank system involved, you can check th
 
 We choose `single-file-component` pattern as the fundamental of this game. In order to use this pattern, we involved [webpack](https://webpack.js.org/) with [vue-loader](https://github.com/vuejs/vue-loader) to make it possible.
 
+Some mods made by Artie Scie for this fork:
+- conv to an English alphabet pre-schooler game
+- game logo field changed to "AlphaFlip"
+- add logic to take a random subset of images on each play, since the set of alphabet letters exceeds the actual used subset (8 cards vs 26 letters)
+- along with each image, an MP3 file to play on match
+- images from [Classroom Clipart](classroomclipart.com/)
+- image magick used to resize images, etc, using scripts by [Fred](http://www.fmwconcepts.com/imagemagick/)
+- package.json script "npm start" now opens the browser (remove "--open" if you don't like it)
+
 ## Components Tree ##
 
 ![](https://raw.githubusercontent.com/leftstick/vue-memory-game/master/docs/img/components.png)

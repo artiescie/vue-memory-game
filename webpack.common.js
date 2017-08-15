@@ -33,7 +33,7 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             },
             {
-                test: /\.(png)$/,
+              test: /\.(png|jpg|wav|mp3)$/,  // artie aug 13 2017 allow jpg's, mp3's, wavs
                 use: ['file-loader']
             }
         ]
@@ -49,7 +49,7 @@ module.exports = {
             filename: 'index.html',
             inject: 'body',
             template: 'index.html_vm',
-            favicon: 'img/favicon.ico',
+            favicon: 'static/favicon.ico',
             hash: false
         })
     ]

@@ -1,5 +1,4 @@
 
-
 export default {
     reset(st, newState) {
         st.leftMatched = newState.leftMatched;
