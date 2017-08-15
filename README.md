@@ -24,7 +24,7 @@ Some mods made by Artie Scie for this fork:
 - temporary [web demo here](http://come2think.com/vue-memory-game) - may disappear without notice ;-)
 #### Browser Note: ####
 - Small testing effort on the fork: works on various browsers, on Linux, Windows, Android, Mac browsers tested 
-EXCEPT: Windows IE 11 and earlier, Mac OS-X Safari, Apple iOS Safari, Apple iOS Chrome.  Probably it's the HTML5 Animation features not being supported in those browsers.
+FAILS ON: Windows IE 11 and earlier, Mac OS-X Safari, Apple iOS Safari, Apple iOS Chrome.  Probably it's the HTML5 Animation features not being supported in those browsers.
 
 ## Components Tree ##
 
