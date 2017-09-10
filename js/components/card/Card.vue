@@ -1,46 +1,46 @@
 <template>
   <div class="container" v-on:click="flip">
     <div class="card" v-bind:class="{ flipped: option.flipped }">
-      <img class="front" :src="getCardImage(option)"/>
-      <img class="back" src="../../../static/back.png"/>
+      <img class="front" draggable="false" :src="getCardImage(option)"/>
+      <img class="back" draggable="false" src="../../../static/back.png"/>
     </div>
   </div>
 </template>
 
 <script>
-  import { mapActions } from 'vuex';
-  import store from '../../vuex/store';
+    import { mapActions } from 'vuex';
+    import store from '../../vuex/store';
 
-  export default {
-    props: {
-      option: {
-        type: Object,
-        default() {
-          return {
-            flipped: false,
-            cardName: ''
-          };
-        }
-      }
-    },
-    methods: {
-      ...mapActions([
-        'flipCard'
-      ]),
-      flip() {
-        if (this.option.flipped) {
-          return;
-        }
-        this.flipCard(this.option);
-        this.$emit('flipped', this.option);
-      },
-      getCardImage(option) {
-        return require("../../../static/" + option.cardName + ".jpg")
-      }
-    },
+    export default {
+        props: {
+            option: {
+                type: Object,
+                default() {
+                    return {
+                        flipped: false,
+                        cardName: ''
+                    };
+                }
+            }
+        },
+        methods: {
+            ...mapActions([
+                'flipCard'
+            ]),
+            flip() {
+                if (this.option.flipped) {
+                    return;
+                }
+                this.flipCard(this.option);
+                this.$emit('flipped', this.option);
+            },
+            getCardImage(option) {
+                return require("../../../static/" + option.cardName + ".jpg")
+            }
+        },
 
-    components: {}
-  }
+        components: {}
+    }
 </script>
 
 <style scoped>
@@ -71,6 +71,7 @@
     width: 100%;
     position: absolute;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
   }
 
   .card .back {
