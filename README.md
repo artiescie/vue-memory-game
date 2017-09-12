@@ -25,10 +25,13 @@ Some mods made by Artie Scie for this fork:
 - images from [Classroom Clipart](classroomclipart.com/)
 - image magick used to resize images, etc, using scripts by [Fred](http://www.fmwconcepts.com/imagemagick/)
 - package.json script "npm start" now opens the browser (remove "--open" if you don't like it)
+- draggable set to false for images
 - temporary [web demo here](http://come2think.com/vue-memory-game) - may disappear without notice ;-)
 #### Browser Note: ####
-- Small testing effort on the fork: works on various browsers, on Linux, Windows, Android, Mac browsers tested 
-FAILS ON: Windows IE 11 and earlier, Mac OS-X Safari, Apple iOS Safari, Apple iOS Chrome.  Probably it's the HTML5 Animation features not being supported in those browsers.
+- Small testing effort on the fork: works on various browsers, on Linux, Windows, Android, Mac browsers tested.  
+OK EXCEPT FAILS ON: Windows IE 11 and earlier.  I think it's support for transition/transform features of HTML5... 
+But I think MS is not going to work very hard on non-security fixes to IE.
+Safari browsers worked after adding a mfr prefix: -webkit-backface-visibility that isn't handled by css-loader.
 
 ## Components Tree ##
 
