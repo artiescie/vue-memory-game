@@ -20,7 +20,7 @@ We choose `single-file-component` pattern as the fundamental of this game. In or
 Some mods made by Artie Scie for this fork:
 - conv to an English alphabet pre-schooler game
 - game logo field changed to "AlphaFlip"
-- add logic to take a random subset of images on each play, since the set of alphabet letters exceeds the actual used subset (8 cards vs 26 letters)
+- add logic to take a random subset of images on each play, since the set of alphabet letters exceeds the actual used subset (8 card pairs at one time, selected from 26 letters)
 - along with each image, an MP3 file to play on match
 - images from [Classroom Clipart](classroomclipart.com/)
 - image magick used to resize images, etc, using scripts by [Fred](http://www.fmwconcepts.com/imagemagick/)
