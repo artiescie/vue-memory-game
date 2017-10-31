@@ -6,6 +6,8 @@ npm-debug.log
 .DS_Store
 
 #dist
-dist/
-/.idea/
-/.vscode/
+dist
+
+.vscode/
+.idea/
+.history/

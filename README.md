@@ -5,7 +5,7 @@ vue-memory-game
 
 Alphabet learning game for preschoolers.  Common objects with letters, pronounce them on match!
 
-Original repo:
+### Original repo: ### 
 
 A tiny game written in `vue2`. It's inspired by IgorMinar's [Memory-Game](https://github.com/IgorMinar/Memory-Game). You can view the online demo [here](http://leftstick.github.io/vue-memory-game).
 
@@ -26,7 +26,9 @@ Some mods made by Artie Scie for this fork:
 - image magick used to resize images, etc, using scripts by [Fred](http://www.fmwconcepts.com/imagemagick/)
 - package.json script "npm start" now opens the browser (remove "--open" if you don't like it)
 - draggable set to false for images
-- temporary [web demo here](http://come2think.com/vue-memory-game) - may disappear without notice ;-)
+### AlphaFlip fork DEMO ###
+
+- [web demo here](http://come2think.com/vue-memory-game)
 #### Browser Note: ####
 - Small testing effort on the fork: works on various browsers, on Linux, Windows, Android, Mac browsers tested.  
 OK EXCEPT FAILS ON: Windows IE 11 and earlier.  I think it's support for transition/transform features of HTML5... 
