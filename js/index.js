@@ -10,4 +10,5 @@ new Vue({
     render(h) {
         return h(Game);
     },
-    store});
+    store
+});

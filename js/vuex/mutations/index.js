@@ -8,6 +8,11 @@ export default {
         st.elapsedMs = newState.elapsedMs;
     },
 
+    resetScore(st) {
+        st.highestSpeed = 9999;
+        return localStorage.setItem('highestSpeed', 9999);
+    },
+
     updateStatus(st, newStatus) {
         st.status = newStatus;
     },
@@ -17,7 +22,7 @@ export default {
     },
 
     flip(st, card) {
-        var c = st.cards.find(cc => cc === card);
+        let c = st.cards.find(cc => cc === card);
         c.flipped = !c.flipped;
     },
 
