@@ -1,7 +1,12 @@
+
+/* eslint-disable no-unused-vars */
 <template>
   <div class="logo">
     <h3>AlphaFlip</h3>
-    <h4><a href="http://classroomclipart.com" target="_blank">Credits</a></h4>
+    <h4>
+      Credits: <a href="https://github.com/leftstick/vue-memory-game#readme" target="_blank">Code</a>&nbsp;
+      <a href="http://classroomclipart.com" target="_blank">Art</a>
+    </h4>
   </div>
 </template>
 

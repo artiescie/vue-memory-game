@@ -1,14 +1,23 @@
 {
-    "parserOptions":{
-        "ecmaVersion": 6,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "globalReturn": true,
-            "impliedStrict": false,
-            "jsx": false,
-            "experimentalObjectRestSpread": true
-        }
+//    "parser": "vue-eslint-parser",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
     },
+    // "parserOptions":{
+    //     "ecmaVersion": 2018,
+    //     "sourceType": "module",
+    //     "ecmaFeatures": {
+    //         "globalReturn": true,
+    //         "impliedStrict": false,
+    //         "jsx": false,
+    //         "experimentalObjectRestSpread": true
+    //     }
+    // },
+    // "extends": [    
+    //     // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style   
+    //     "standard"
+    // ],
     "env": {
         "shared-node-browser": true,
         "browser": true,
